@@ -38,11 +38,7 @@ function SidebarItem({ icon: Icon, label, active, collapsed, onClick }) {
 }
 /* ====  ADD TOOLS TO SIDEBAR ==== */
 export function Sidebar({ collapsed, activeTool, setActiveTool }) {
-  const tools = [
-    { type: "dashboard", label: "GridOptimizer", icon: Grid2x2Check },
-    { type: "test", label: "Test", icon: HelpCircle}
-
-  ]
+  const tools = []
 
   return (
     <div

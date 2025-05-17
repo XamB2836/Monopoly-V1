@@ -24,7 +24,7 @@ export function TopNavbar({ toggleSidebar, collapsed }) {
           <div className="bg-accent rounded-md w-8 h-8 flex items-center justify-center">
             <span className="text-accent-foreground font-bold">N</span>
           </div>
-          { <span className="font-bold text-lg">Nummax App</span>}
+          { <span className="font-bold text-lg">Monopoly - v1.0</span>}
         </div>
       </div>
 
