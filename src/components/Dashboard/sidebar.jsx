@@ -38,7 +38,13 @@ function SidebarItem({ icon: Icon, label, active, collapsed, onClick }) {
 }
 /* ====  ADD TOOLS TO SIDEBAR ==== */
 export function Sidebar({ collapsed, activeTool, setActiveTool }) {
-  const tools = []
+  const tools = [
+{
+      type: "players", // identifiant unique de ton outil
+    icon: Users, // exemple : <UserIcon /> ou "👤"
+    label: "Joueurs", // nom affiché dans la sidebar
+},
+  ]
 
   return (
     <div

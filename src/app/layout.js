@@ -11,7 +11,7 @@ import { ThemeProvider } from "@/components/Dashboard/theme-provider"
 import "@/styles/DashBoard.css"
 export const metadata = {
   title: "Monopoly V1.0",
-  description: "Internal tools for Nummax employees",
+  description: "Monopoly Dashboard",
 };
 
 // THEME LAYOUT
