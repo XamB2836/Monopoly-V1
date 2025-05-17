@@ -10,7 +10,7 @@ import { ThemeProvider } from "@/components/Dashboard/theme-provider"
 // STYLES
 import "@/styles/DashBoard.css"
 export const metadata = {
-  title: "Nummax Designer App",
+  title: "Monopoly V1.0",
   description: "Internal tools for Nummax employees",
 };
 
